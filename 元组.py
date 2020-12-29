@@ -14,7 +14,7 @@ C:\workhome\github\closer>python 元组.py
 
 # 如果要查找的数据有多个  查出的下标则是最前面的一个
 b = (1,2,3,"哈哈","哈哈","哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
-print(b.index("哈哈"))
+print(b.index("哈哈"))  # 查询该数据的下标
 print(b.count("哈哈"))  # 统计哈哈的数量
 
 
