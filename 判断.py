@@ -29,3 +29,14 @@ if a in "你好！吃了吗？":
     print("OK")
 else:
     print("不OK")
+
+
+# is 可以判断类型
+a = 2
+if type(a) is int :
+    print("a是数字")
+elif type(a) is str:
+    print("a是字符串")
+else:
+    print("其他")
+
